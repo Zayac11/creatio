@@ -18,7 +18,7 @@
     ```bash
     https://{your github nickname}.github.io/{repository name}, https://{your github nickname}.github.io
     ```
-* Откройте файл index.html на устройстве
+* Откройте файл index.html для редактирования на устройстве
 * Замените выделенные строки в файле index.html на ваши (в файле это строки 54-57)
 ![Иллюстрация к проекту](https://github.com/Zayac11/creatio/blob/master/assets/lines.png)
 * В локальном репозитории создайте ветку gh-pages
