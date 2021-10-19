@@ -15,7 +15,7 @@
     <form class="mainForm" id="submit_button" accept-charset="UTF-8" onSubmit="createObject(); return false">
         <input type="text" placeholder="ФИО" required class="input" id="fullName">
         <input type="email" placeholder="Email" required class="input" id="email">
-        <input type="string" placeholder="Телефон" required class="input" id="phoneNumber">
+        <input type="tel" placeholder="Телефон" required class="input" id="phoneNumber">
         <input type="text" placeholder="Компания" required class="input" id="company">
 
         <button class="submit" type="submit">Зарегистрироваться</button>
@@ -35,9 +35,9 @@
     */
     var config = {
         fields: {
-            "Name": "#fullName", // Name of a visitor, submitting the page
+            "FullName": "#fullName", // Name of a visitor, submitting the page
             "Email": "#email", // Visitor's email
-            "MobilePhone": "#phoneNumber", // Visitor's phone number
+            "PhoneNumber": "#phoneNumber", // Visitor's phone number
             "Company": "#company", // Name of a company (for business landing pages)
 
             // "Zip": "css-selector", // Visitor's ZIP code
@@ -46,9 +46,9 @@
             // "UseEmail": "css-selector" // Logical value: 'true' equals to visitor's opt-in to receive emails 
         },
         contactFields: {
-            "Name": "#fullName", // Name of a visitor, submitting the page
+            "FullName": "#fullName", // Name of a visitor, submitting the page
             "Email": "#email", // Visitor's email
-            "MobilePhone": "#phoneNumber", // Visitor's phone number
+            "PhoneNumber": "#phoneNumber", // Visitor's phone number
             "Company": "#company", // Name of a company (for business landing pages)
         },
         customFields: {"WebFormId":"4a6bf86a-8e8d-464a-a26e-45783a2506ae"},
