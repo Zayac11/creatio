@@ -8,17 +8,17 @@
     <title>Creatio form</title>
 </head>
 <body>
-    <div class="main__title">
-        Здарова
-    </div>
+    <h1 class="main__title">
+        Регистрация контакта
+    </h1>
 
     <form class="mainForm" id="submit_button" accept-charset="UTF-8" onSubmit="createObject(); return false">
         <input type="text" placeholder="ФИО" required class="input" id="fullName">
         <input type="email" placeholder="Email" required class="input" id="email">
-        <input type="string" placeholder="Телефон" required class="input" id="phoneNumber">
+        <input type="tel" placeholder="Телефон" required class="input" id="phoneNumber">
         <input type="text" placeholder="Компания" required class="input" id="company">
 
-        <button type="submit">Зарегистрироваться</button>
+        <button class="submit" type="submit">Зарегистрироваться</button>
     </form>
 
 
@@ -35,9 +35,9 @@
     */
     var config = {
         fields: {
-            "Name": "#fullName", // Name of a visitor, submitting the page
+            "FullName": "#fullName", // Name of a visitor, submitting the page
             "Email": "#email", // Visitor's email
-            "MobilePhone": "#phoneNumber", // Visitor's phone number
+            "Phone": "#phoneNumber", // Visitor's phone number
             "Company": "#company", // Name of a company (for business landing pages)
 
             // "Zip": "css-selector", // Visitor's ZIP code
@@ -45,10 +45,16 @@
             // "FullJobTitle": "css-selector", // Visitor's job title (for business landing pages)
             // "UseEmail": "css-selector" // Logical value: 'true' equals to visitor's opt-in to receive emails 
         },
+        contactFields: {
+            "FullName": "#fullName", // Name of a visitor, submitting the page
+            "Email": "#email", // Visitor's email
+            "Phone": "#phoneNumber", // Visitor's phone number
+            "Company": "#company", // Name of a company (for business landing pages)
+        },
         customFields: {"WebFormId":"4a6bf86a-8e8d-464a-a26e-45783a2506ae"},
         landingId: "4a6bf86a-8e8d-464a-a26e-45783a2506ae",
         serviceUrl: "https://144-0273903-service-enterprise-demo.creatio.com/0/ServiceModel/GeneratedObjectWebFormService.svc/SaveWebFormObjectData",
-        redirectUrl: "http://terrasoft.ru"
+        redirectUrl: ""
     };
     /**
     * The function below creates a object from the submitted data.
