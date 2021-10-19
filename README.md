@@ -15,6 +15,10 @@
     ```
 * В Creatio перейдите в раздел Лендинги и web-формы > Добавить > Форму регистрации контакта
 * Заполните поле Название
+* Заполните поле Домены сайта (пишите всё строчными буквами) + я не уверен какой домен из этих работает, так что я просто вставил сразу оба через запятую
+    ```bash
+    https://{your github nickname}.github.io/{repository name}, https://{your github nickname}.github.io
+    ```
 * Откройте файл index.html на устройстве
 * Замените выделенные строки в файле index.html на ваши
 ![Иллюстрация к проекту](https://github.com/Zayac11/creatio/blob/master/assets/lines.png)
