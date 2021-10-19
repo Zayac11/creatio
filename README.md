@@ -10,7 +10,6 @@
     ```bash
     git remote set-url origin https://github.com/{your github name}/{repository name}.git
     git add .
-    git commit -m "cloned repo"
     git push --force
     ```
 * В Creatio перейдите в раздел Лендинги и web-формы > Добавить > Форму регистрации контакта
