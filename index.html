@@ -62,9 +62,12 @@
     * Example: <form class="mainForm" name="landingForm" onSubmit="createObject(); return false">
     */
     function createObject() {
+        //Если залезут в код всё равно узнают ведь, буду надеяться, что не все такие умные и не заспамят мне всё creatio
+        const password = prompt('Защитный пароль');
         console.log(config)
-        debugger
-        landing.createObjectFromLanding(config);
+        if(password === '123') {
+            landing.createObjectFromLanding(config);
+        }
     }
     /**
     * The function below inits landing page using URL parameters.
