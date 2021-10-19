@@ -26,4 +26,9 @@
     ```bash
     git push -u origin gh-pages
     ```
-*  
+* Перейдите в появившуюся вкладку Environments
+![Иллюстрация к проекту](https://github.com/Zayac11/creatio/blob/master/assets/env.png)
+* Нажмите на кнопку View deployment
+![Иллюстрация к проекту](https://github.com/Zayac11/creatio/blob/master/assets/deploy.png)
+* Далее откроется страница с формой, если открывается страница с 404 ошибкой - просто подождите
+* После заполнения формы и её отправки в Creatio перейдите на вкладку Контакты и отфильтруйте их по дате создания
