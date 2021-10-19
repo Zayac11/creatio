@@ -21,6 +21,12 @@
 * Откройте файл index.html для редактирования на устройстве
 * Замените выделенные строки в файле index.html на ваши (в файле это строки 54-57)
 ![Иллюстрация к проекту](https://github.com/Zayac11/creatio/blob/master/assets/lines.png)
+* Проиндексируйте изменения и сделайте коммит, по желанию можно запушить в мастер ветку
+    ```bash
+    git add .
+    git commit -m 'index.html changed'
+    git push 
+    ```
 * В локальном репозитории создайте ветку gh-pages
     ```bash
     git checkout -b gh-pages
