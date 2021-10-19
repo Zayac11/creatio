@@ -26,7 +26,7 @@
     ```bash
     git checkout -b gh-pages
     ```
-* Сделайте пуш в репозиторий гит
+* Сделайте пуш в репозиторий гит, со временем справа появится Environments 
     ```bash
     git push -u origin gh-pages
     ```
